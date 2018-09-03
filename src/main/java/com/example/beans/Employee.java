@@ -7,9 +7,9 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-@Entity
-@Table(name="Employee")
-public class Employee implements Serializable {
+    @Entity
+    @Table(name="Employee")
+    public class Employee implements Serializable {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
